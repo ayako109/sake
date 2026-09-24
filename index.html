@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>日本酒検定学習サイト</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>日本酒検定学習サイト</h1>
+    <p>日本酒の基礎知識をわかりやすく学ぼう</p>
+  </header>
+
+  <nav>
+    <a href="#chapter1">第1章 基本</a>
+    <a href="#chapter2">第2章 酒米</a>
+    <a href="#chapter3">第3章 水</a>
+    <a href="#chapter4">第4章 麹</a>
+    <a href="#chapter5">第5章 発酵</a>
+    <a href="#chapter6">第6章 工程</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>掲載内容</h2>
+      <ul>
+        <li>日本酒検定対策</li>
+        <li>酒米の学習</li>
+        <li>醸造工程の理解</li>
+        <li>日本酒用語の整理</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#chapter1">第1章 日本酒の基本</a></li>
+        <li><a href="#chapter2">第2章 酒米</a></li>
+        <li><a href="#chapter3">第3章 醸造の水</a></li>
+        <li><a href="#chapter4">第4章 麹（こうじ）</a></li>
+        <li><a href="#chapter5">第5章 発酵</a></li>
+        <li><a href="#chapter6">第6章 製造工程</a></li>
+        <li><a href="#rice-list">酒米一覧</a></li>
+        <li><a href="#terms">用語カード</a></li>
+      </ol>
+    </section>
+
+    <section id="chapter1" class="card">
+      <h2>第1章 日本酒の基本</h2>
+      <p>
+        日本酒は米・米こうじ・水を原料としてつくられる日本の伝統的な醸造酒です。
+      </p>
+      <div class="point">
+        <strong>検定ポイント</strong>
+        <ul>
+          <li>主原料は米・米こうじ・水</li>
+          <li>発酵によってアルコールを生成する</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="chapter2" class="card">
+      <h2>第2章 酒米</h2>
+      <p>
+        酒米は日本酒造り専用の米です。一般的な食用米より大粒で、心白を持つ品種が多くあります。
+      </p>
+      <div class="point">
+        <strong>検定ポイント</strong>
+        <ul>
+          <li>山田錦＝酒米の王様</li>
+          <li>五百万石＝淡麗</li>
+          <li>美山錦＝長野県発祥</li>
+          <li>雄町＝最古級の酒米</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="chapter3" class="card">
+      <h2>第3章 醸造の水</h2>
+      <p>日本酒の約80％は水で構成されています。</p>
+
+      <h3>仕込み水</h3>
+      <p>日本酒造りに使用される水のことを仕込み水と呼びます。</p>
+
+      <table>
+        <tr>
+          <th>種類</th>
+          <th>特徴</th>
+        </tr>
+        <tr>
+          <td>軟水</td>
+          <td>やわらかく繊細な味わい</td>
+        </tr>
+        <tr>
+          <td>硬水</td>
+          <td>力強くキレのある味わい</td>
+        </tr>
+      </table>
+
+      <div class="point">
+        <strong>検定ポイント</strong>
+        <ul>
+          <li>宮水＝硬水</li>
+          <li>伏見の水＝軟水</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="chapter4" class="card">
+      <h2>第4章 麹（こうじ）</h2>
+      <p>麹は蒸した米に麹菌を繁殖させて作られます。</p>
+      <p>デンプンを糖に変える働きを持っています。</p>
+      <div class="point">
+        <strong>検定ポイント</strong>
+        <ul>
+          <li>麹菌が糖化を行う</li>
+          <li>日本酒では黄麹菌を使用</li>
+          <li>麹を作る工程を製麹という</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="chapter5" class="card">
+      <h2>第5章 発酵</h2>
+      <p>酵母は糖をアルコールへ変える働きを持ちます。</p>
+
+      <h3>並行複発酵</h3>
+      <p>日本酒では糖化と発酵が同時に進みます。</p>
+
+      <div class="point">
+        <strong>検定ポイント</strong>
+        <ul>
+          <li>酵母は糖をアルコールに変える</li>
+          <li>日本酒最大の特徴は並行複発酵</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="chapter6" class="card">
+      <h2>第6章 製造工程</h2>
+      <p>工程名をタップすると説明が表示されます。</p>
+
+      <div class="accordion">
+        <button class="accordion-btn">① 精米</button>
+        <div class="accordion-content">
+          <p>米の表面を削り、たんぱく質や脂質などの雑味の原因となる成分を取り除く工程です。</p>
+        </div>
+
+        <button class="accordion-btn">② 洗米</button>
+        <div class="accordion-content">
+          <p>精米後に残った米ぬかを洗い流す工程です。</p>
+        </div>
+
+        <button class="accordion-btn">③ 浸漬</button>
+        <div class="accordion-content">
+          <p>米に必要な量の水を吸収させる工程です。吸水量は酒質に大きく影響します。</p>
+        </div>
+
+        <button class="accordion-btn">④ 蒸米</button>
+        <div class="accordion-content">
+          <p>吸水した米を蒸し、麹づくりや発酵に適した状態にします。</p>
+        </div>
+
+        <button class="accordion-btn important">⑤ 製麹</button>
+        <div class="accordion-content">
+          <p>蒸米に黄麹菌を繁殖させて麹をつくる工程です。</p>
+          <p>麹は米のでんぷんを糖に変える「糖化」を行います。</p>
+        </div>
+
+        <button class="accordion-btn">⑥ 酒母造り</button>
+        <div class="accordion-content">
+          <p>酵母を増殖させるための工程です。発酵の土台をつくります。</p>
+        </div>
+
+        <button class="accordion-btn important">⑦ もろみ発酵</button>
+        <div class="accordion-content">
+          <p>麹による糖化と酵母による発酵が同時に進みます。</p>
+          <p>日本酒特有の「並行複発酵」が行われる重要工程です。</p>
+        </div>
+
+        <button class="accordion-btn">⑧ 上槽</button>
+        <div class="accordion-content">
+          <p>もろみを搾り、日本酒と酒粕に分ける工程です。</p>
+        </div>
+
+        <button class="accordion-btn">⑨ 火入れ</button>
+        <div class="accordion-content">
+          <p>加熱殺菌を行い、品質を安定させる工程です。</p>
+        </div>
+
+        <button class="accordion-btn">⑩ 貯蔵</button>
+        <div class="accordion-content">
+          <p>タンクなどで熟成させ、味わいを整える工程です。</p>
+        </div>
+      </div>
+
+      <div class="point">
+        <strong>検定頻出ポイント</strong>
+        <ul>
+          <li>製麹＝麹をつくる工程</li>
+          <li>酒母＝酵母を増やす工程</li>
+          <li>もろみ発酵＝並行複発酵</li>
+          <li>上槽＝酒と酒粕を分離する工程</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="rice-list" class="card">
+      <h2>代表的な酒米一覧</h2>
+      <table>
+        <tr>
+          <th>酒米</th>
+          <th>主な産地</th>
+          <th>特徴</th>
+        </tr>
+        <tr>
+          <td>山田錦</td>
+          <td>兵庫県</td>
+          <td>酒米の王様。高品質な吟醸酒に多く使用される。</td>
+        </tr>
+        <tr>
+          <td>五百万石</td>
+          <td>新潟県など</td>
+          <td>淡麗でスッキリした酒質になりやすい。</td>
+        </tr>
+        <tr>
+          <td>美山錦</td>
+          <td>長野県など</td>
+          <td>軽快でキレのある味わいになりやすい。</td>
+        </tr>
+        <tr>
+          <td>雄町</td>
+          <td>岡山県</td>
+          <td>最古級の酒米。濃醇でコクのある酒質。</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="terms" class="card">
+      <h2>日本酒用語カード</h2>
+      <div class="card-grid">
+        <div class="flashcard">
+          <div class="card-inner">
+            <div class="card-front">山田錦</div>
+            <div class="card-back">酒米の王様</div>
+          </div>
+        </div>
+
+        <div class="flashcard">
+          <div class="card-inner">
+            <div class="card-front">宮水</div>
+            <div class="card-back">兵庫県西宮市の硬水</div>
+          </div>
+        </div>
+
+        <div class="flashcard">
+          <div class="card-inner">
+            <div class="card-front">麹</div>
+            <div class="card-back">デンプンを糖に変える</div>
+          </div>
+        </div>
+
+        <div class="flashcard">
+          <div class="card-inner">
+            <div class="card-front">酵母</div>
+            <div class="card-back">糖をアルコールに変える</div>
+          </div>
+        </div>
+
+        <div class="flashcard">
+          <div class="card-inner">
+            <div class="card-front">並行複発酵</div>
+            <div class="card-back">糖化と発酵が同時進行</div>
+          </div>
+        </div>
+
+        <div class="flashcard">
+          <div class="card-inner">
+            <div class="card-front">黄麹菌</div>
+            <div class="card-back">日本酒造りで使われる麹菌</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>問い合わせ</h2>
+      <p>ご意見・ご要望は以下までご連絡ください。</p>
+      <p><a class="contact-link" href="mailto:sample@example.com">sample@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 日本酒検定学習サイト</p>
+  </footer>
+
+  <button id="backToTop" aria-label="ページ上部へ戻る">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
